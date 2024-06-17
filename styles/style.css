@@ -803,26 +803,26 @@
 		max-width: 100%;
 	}
 	.logo {
-		position: relative;
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
 	}
 
 	.logo-img {
-		position: absolute;
-		left: 50%;
-		right: 50%;
+		display: flex;
+		justify-content: center;
 	}
 
 	.logo-connect-wallet {
-		position: absolute;
-		left: 41.5%;
-		right: 50%;
+		display: flex;
+		justify-content: center;
 		top: 200px;
 		cursor: pointer;
 	}
 	.main-logo {
 		display: flex;
 		justify-content: center;
-		padding-top: 0px;
+		padding-top: 10px;
 	}
 	.emimi-info {
 		display: flex;
@@ -844,14 +844,26 @@
 		flex-wrap: wrap;
 		gap: 13px 13px;
 	}
+	.community-and-media {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		padding-left: 10px;
+		align-items: center;
+	}
 	.community-and-media-item {
 		justify-content: center;
 		flex-wrap: wrap;
 		gap: 13px 13px;
+		width: 100%;
+	}
+	.about-info {
+
 	}
 	.title {
 		font-size: 38px;
 		line-height: 22.4px;
+		width: 100%;
 	}
 	.swap-service-text {
 		padding-top: 30px;
@@ -862,7 +874,46 @@
 		font-size: 28px;
 		line-height: 30.4px;
 	}
+	.mars-services-logo {
+		margin-left: 10px;
+	}
 	.swap-service-text p{
+		width: 100%;
+	}
+	.mars-services-action {
+		flex-wrap: wrap;
+		gap: 13px 13px;
+	}
+	.swap {
+		width: 100%;
+		margin: 10px;
+	}
+	.staking{
+		width: 100%;
+		margin: 10px;
+	}
+	.game{
+		width: 100%;
+		margin: 10px;
+	}
+	.community-and-media {
+		display: flex;
+		justify-content: center;
+	}
+	.telegram {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 40px;
+	}
+	.main {
+		display: none;
+	}
+	.use-token {
+		position: absolute;
+		top: 200px;
+		z-index: 1;
 		width: 100%;
 	}
 }
