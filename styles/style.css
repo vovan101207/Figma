@@ -772,7 +772,7 @@
 
 	.main-logo {
 		font-size: 36px;
-		padding-top: 10px; /* Уменьшен промежуток */
+		padding-top: 10px;
 	}
 
 	.emimi-info,
@@ -850,8 +850,8 @@
 
 	.footer {
 		width: 100%;
-		padding: 20px 10px; /* Уменьшено расстояние */
-		background-color: rgba(0, 0, 0, 0.5); /* Добавлен фон для лучшего контраста */
+		padding: 20px 10px;
+		background-color: rgba(0, 0, 0, 0.5);
 		border-radius: 20px;
 		text-align: center;
 	}
