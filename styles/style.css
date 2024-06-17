@@ -41,7 +41,7 @@
 
 .logo-img {
 	position: absolute;
-	left: 43.7%;
+	left: 43.4%;
 	right: 50%;
 }
 
@@ -717,4 +717,152 @@
 
 .form-button:hover {
 	background: #cc2323;
+}
+
+@media (max-width: 990px) {
+	.header-backround img{
+		display: none;
+	}
+	.planet-backround img{
+		display: none;
+	}
+	.vector-backround img {
+		display: none;
+	}
+	.star-ship img{
+		display: none;
+	}
+	.main-backround img{
+		display: none;
+	}
+	.backround2 img{
+		display: none;
+	}
+	.backround3 img{
+		display: none;
+	}
+	.backround4 img{
+		display: none;
+	}
+	.backround5 img{
+		display: none;
+	}
+	.roladmap img{
+		display: none;
+	}
+	.footer-back img{
+		display: none;
+	}
+	.use-token-img img {
+		display: none;
+	}
+	.smimi-img img{
+		display: none;
+	}
+	.emimi-planet img{
+		display: none;
+	}
+	.emimi-frame img{
+		display: none;
+	}
+	.smimi-frame img{
+		display: none;
+	}
+	.frame img{
+		display: none;
+	}
+	.frame4 img{
+		display: none;
+	}
+	.swap-service-img img{
+		display: none;
+	}
+	.frame4 img{
+		display: none;
+	}
+	.frame3 img{
+		display: none;
+	}
+	.frame2 img{
+		display: none;
+	}
+	.swap-service-frame img{
+		display: none;
+	}
+	.use-token-img img{
+		display: none;
+	}
+	.container {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	body {
+		background: #242424;
+	}
+	.main-container {
+		max-width: 100%;
+	}
+	.logo {
+		position: relative;
+	}
+
+	.logo-img {
+		position: absolute;
+		left: 50%;
+		right: 50%;
+	}
+
+	.logo-connect-wallet {
+		position: absolute;
+		left: 41.5%;
+		right: 50%;
+		top: 200px;
+		cursor: pointer;
+	}
+	.main-logo {
+		display: flex;
+		justify-content: center;
+		padding-top: 0px;
+	}
+	.emimi-info {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 13px 13px;
+		width: 100%;
+	}
+	.smimi-info {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 13px 13px;
+		width: 100%;
+	}
+	.about-info-list {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 13px 13px;
+	}
+	.community-and-media-item {
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 13px 13px;
+	}
+	.title {
+		font-size: 38px;
+		line-height: 22.4px;
+	}
+	.swap-service-text {
+		padding-top: 30px;
+		padding-left: 15px;
+		width: 100%;
+	}
+	.swap-service-text h1{
+		font-size: 28px;
+		line-height: 30.4px;
+	}
+	.swap-service-text p{
+		width: 100%;
+	}
 }
