@@ -18,6 +18,7 @@
 .header-backround img {
 	z-index: -2;
 	position: absolute;
+	max-width: 100%;
 }
 .planet-backround img {
 	position: absolute;
@@ -31,6 +32,7 @@
 .vector-backround img {
 	z-index: -1;
 	position: absolute;
+	max-width: 100%;
 }
 
 .logo {
@@ -84,12 +86,14 @@
 	position: absolute;
 	z-index: -2;
 	top: 1200px;
+	max-width: 100%;
 }
 
 .main-backround2 img {
 	position: absolute;
 	z-index: -2;
 	top: 2500px;
+	max-width: 100%;
 }
 
 .emimi-frame img {
@@ -296,12 +300,14 @@
 	position: absolute;
 	z-index: -2;
 	top: 3800px;
+	max-width: 100%;
 }
 
 .backround3 img {
 	position: absolute;
 	z-index: -2;
 	top: 5100px;
+	max-width: 100%;
 }
 
 .about-info {
@@ -411,7 +417,8 @@
 .backround4 img {
 	position: absolute;
 	z-index: -2;
-	top: 6450px;
+	top: 6440px;
+	max-width: 100%;
 }
 
 .swap-service-frame img {
@@ -457,7 +464,8 @@
 .backround5 img {
 	position: absolute;
 	z-index: -2;
-	top: 7800px;
+	top: 7780px;
+	max-width: 100%;
 }
 
 .community-and-media {
@@ -619,10 +627,11 @@
 	right: 0;
 }
 
-.footer-back {
+.footer-back img {
 	position: absolute;
 	z-index: -1;
 	top: 8300px;
+	max-width: 100%;
 }
 
 .footer {
